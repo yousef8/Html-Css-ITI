@@ -1,0 +1,38 @@
+div {
+    width: 515px;
+    box-shadow: 1px 1px 8px gray;
+    padding: 12px 12px;
+    border-radius: 19px;
+}
+
+.tweeter-avatar {
+    width: 65px;
+    height: 65px;
+
+    object-fit: cover;
+    border-radius: 50%;
+
+    vertical-align: middle;
+}
+
+#tweet {
+    vertical-align: middle;
+    width: 300px;
+    height: 35px;
+
+    border-radius: 10px;
+    border: none;
+    font-size: larger;
+    padding: 4px 12px;
+}
+
+.tweet-button {
+    vertical-align: middle;
+    background-color: #4B99E9;
+    padding: 12px 36px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+}
