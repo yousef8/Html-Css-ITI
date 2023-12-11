@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.card {
+    width: 250px;
+    box-shadow: 1px 1px 8px gray;
+}
+
+
+div.avatar>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card>.info {
+    padding: 12px;
+}
+
+.card>.info>p {
+    color: #898989;
+    font-size: large;
+}
+
+.card>.info>button {
+    background-color: #3875E9;
+    color: white;
+    font-size: large;
+    padding: 9px 27px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
