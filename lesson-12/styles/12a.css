@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col1 {
+    background-color: #B6D7E4;
+    width: 200px;
+}
+
+.col2 {
+    background-color: #F4B9C1;
+    width: 75px;
+}

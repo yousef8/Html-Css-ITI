@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col1 {
+    width: 50px
+}
+
+.col2 {
+    flex-grow: 1;
+}
+
+.col3 {
+    width: 75px;
+}

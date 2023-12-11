@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border: 2px solid #808080;
+}
+
+.item1,
+.item2 {
+    background-color: #F4B9C2;
+    font-size: xx-large;
+}

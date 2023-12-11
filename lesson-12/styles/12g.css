@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+    box-shadow: 1px 1px 8px gray;
+    padding: 15px;
+}
+
+.account {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.account>img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 3px;
+}
+
+.info>.usrname {
+    font-size: large;
+    font-weight: bold;
+}
+
+.info>.bio {
+    font-size: large;
+    color: gray;
+}
+
+.info>.rank {
+    font-size: medium;
+    color: gray;
+}
+
+
+.account>button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: x-large;
+    background-color: #4193EE;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 7px;
+}

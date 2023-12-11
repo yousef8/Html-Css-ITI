@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container>div {
+    background-color: #F4B9C2;
+    font-size: xx-large;
+}
