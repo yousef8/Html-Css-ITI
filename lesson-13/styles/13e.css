@@ -1,0 +1,40 @@
+.container {
+    box-shadow: 1px 1px 8px gray;
+    padding: 15px;
+    width: fit-content;
+}
+
+.card {
+    margin: 15px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.card>img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.content>.row:first-child>div:first-child {
+    font-size: large;
+    font-weight: bold;
+}
+
+.content>.row:first-child>div:last-child {
+    color: gray;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+.row:last-child {
+    color: gray;
+    font-weight: bold;
+}

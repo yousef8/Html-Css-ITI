@@ -1,0 +1,64 @@
+.tweet {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+}
+
+
+.tweet>.profile-pic>img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content>.usrname {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.usrname>div:first-child {
+    font-size: large;
+    font-weight: bold;
+}
+
+.usrname>div:last-child {
+    font-weight: bold;
+    color: gray;
+}
+
+.content>.body {
+    font-size: large;
+    margin: 10px 0px;
+}
+
+.content>.embed-link {
+    border: 1px solid gray;
+    border-radius: 15px;
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    overflow: hidden;
+
+}
+
+.content>.embed-link>.left {
+    width: 25%;
+    background-color: #D3D3D3;
+}
+
+.content>.embed-link>.right {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 3px;
+}
+
+.content>.embed-link>.right>.head {
+    font-size: large;
+    color: gray;
+    font-weight: bold;
+}

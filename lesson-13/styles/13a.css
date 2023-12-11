@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 50px;
+}
+
+.item1 {
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nestedItem {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+
+.item2 {
+    background-color: lightblue;
+    width: 200px;
+}
