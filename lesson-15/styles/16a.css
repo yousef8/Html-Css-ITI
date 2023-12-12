@@ -1,0 +1,57 @@
+.box {
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    width: 500px;
+    top: 50px;
+    left: 50px;
+}
+
+.close {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    top: -35px;
+    left: -35px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.thumbnail .timestamp {
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    color: white;
+    font-size: large;
+}
+
+.info {
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.info img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
