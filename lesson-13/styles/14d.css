@@ -1,0 +1,33 @@
+body {
+    height: 3000px;
+}
+
+aside {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.overlay {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    width: 200px;
+    padding: 30px 90px 30px 30px;
+    border-radius: 10px;
+}
