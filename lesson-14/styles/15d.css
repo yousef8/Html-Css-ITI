@@ -1,0 +1,39 @@
+body {
+    height: 3000px;
+}
+
+.box {
+    background-color: gray;
+    color: white;
+    position: fixed;
+    width: 320px;
+    height: 180px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.close {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+}
+
+.timestamp {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    font-size: large;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

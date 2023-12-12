@@ -1,0 +1,14 @@
+div {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
